@@ -1,0 +1,177 @@
+{
+    "name": "Hungarian",
+    "nativeName": "Magyar",
+    "card": {
+        "phase": {
+            "firstQuarterMoon": "első negyed",
+            "fullMoon": "telihold",
+            "thirdQuarterMoon": "utolsó negyed",
+            "newMoon": "újhold",
+            "waxingCrescentMoon": "növekvő sarló",
+            "waxingGibbousMoon": "növekvő gibbous",
+            "waningCrescentMoon": "fogyó sarló",
+            "waningGibbousMoon": "fogyó gibbous"
+        },
+        "illumination": "megvilágítás",
+        "illuminated": "megvilágított",
+        "moonRise": "holdkelte",
+        "moonSet": "holdnyugta",
+        "moonHigh": "Moon highest",
+        "moonAge": "a Hold kora",
+        "distance": "távolság",
+        "azimuth": "irányszög",
+        "altitude": "magasság",
+        "fullMoon": "telihold",
+        "newMoon": "újhold",
+        "relativeTime": {
+            "days": "napok",
+            "justNow": "épp most",
+            "minutesAgo": "{0} perccel ezelőtt",
+            "hoursAgo": "{0} órával ezelőtt",
+            "inMinutes": "{0} perc múlva",
+            "inHours": "{0} óra múlva"
+        },
+        "position": "pozíció",
+        "direction": "irány",
+        "cardinalShort": {
+            "N": "É",
+            "NNE": "É-ÉK",
+            "NE": "ÉK",
+            "ENE": "ÉK-K",
+            "E": "K",
+            "ESE": "K-DK",
+            "SE": "DK",
+            "SSE": "D-DK",
+            "S": "D",
+            "SSW": "D-DNy",
+            "SW": "DNy",
+            "WSW": "Ny-DNy",
+            "W": "Ny",
+            "WNW": "Ny-ÉNy",
+            "NW": "ÉNy",
+            "NNW": "É-ÉNy"
+        },
+        "underHorizon": "Hold a látóhatár alatt",
+        "overHorizon": "Hold a látóhatár felett",
+        "horizonTitle": "A mai Hold",
+        "currentTime": "aktuális idő",
+        "common": {
+            "now": "most"
+        }
+    },
+    "editor": {
+        "viewConfig": {
+            "title": "Nyelv és megjelenés",
+            "description": "Nyelvi és háttér beállítások",
+            "customBackground": {
+                "title": "háttér",
+                "description": "Egyedi háttér beállítás"
+            },
+            "theme": {
+                "title": "Téma (optional)",
+                "description": "Válassz témát a kártyához"
+            },
+            "layout": {
+                "title": "Elrendezés beállítások",
+                "description": "Módosítsd az elrendezést"
+            }
+        },
+        "baseConfig": {
+            "title": "Szélesség és hosszúság",
+            "description": "Álltsd be a földrajzi szélességét és hosszúságot"
+        },
+        "optionsConfig": {
+            "useDefault": "rendszer beállítást használja",
+            "useEntity": "az entitást használja",
+            "useCustom": "egyedi"
+        },
+        "fontOptions": {
+            "title": "Betűtípus beállítások",
+            "description": "Set a configuration for font size and color",
+            "hideLabel": "Címke elrejtése",
+            "headerFontConfig": {
+                "title": "Fejléc betűtípus",
+                "description": "Set a configuration for header font"
+            },
+            "labelFontConfig": {
+                "title": "Címke betűtpíus",
+                "description": "Set a configuration for label font"
+            },
+            "headerFontSize": "Fejléc betűméret",
+            "headerFontColor": "Fejléc betűszín",
+            "headerFontStyle": "Fejléc betűstílus",
+            "labelFontSize": "Címke betűmértet",
+            "labelFontColor": "Címke betűszín",
+            "labelFontStyle": "Címke betűstílus",
+            "valueFontSize": "Érték betűméret"
+        },
+        "graphConfig": {
+            "title": "Grafikon beállítások",
+            "description": "Set a configuration for graph",
+            "type": {
+                "title": "Grafikon típus",
+                "description": "Select a graph type"
+            },
+            "visibility": {
+                "title": "Láthatósági beállítások",
+                "description": "Hide or show specific elements"
+            },
+            "customization": {
+                "title": "Személyre szabási lehetőségek",
+                "description": "Customize the graph"
+            }
+        },
+        "layoutConfig": {
+            "title": "Elrendezés beállítások",
+            "description": "Modify the layout of the card",
+            "hiddenItems": {
+                "title": "Rejtett elemek",
+                "description": "Select items to hide in data view"
+            }
+        },
+        "compactView": "Kompakt nézet",
+        "showBackground": "Mutassa a hátteret",
+        "timeFormat": "12 órás idő formátum",
+        "mileUnit": "Mérföld egység",
+        "yTicks": "Y tengely beosztás",
+        "xTicks": "X tengely beosztás",
+        "showTime": "kelte/nyugta idő jelzések",
+        "showCurrent": "aktuális Hold pozíció",
+        "showLegend": "Jelmagyarázat",
+        "showHighest": "Legmagasabb Hold pozíció megjelenítése",
+        "calendarModal": "előugró naptár",
+        "hideButtons": "gombok elrejtése",
+        "titleHelper": {
+            "compactView": "kompakt nézet megjelenítése",
+            "showBackground": "háttér megjelenítése",
+            "timeFormat": "Időformátum (12 vagy 24 óra)",
+            "mileUnit": "Km lesz használva ha tiltott",
+            "yTicks": "Y tengely beosztás megjelenítés",
+            "xTicks": "Y tengely beosztás megjelenítés",
+            "showTime": "kele/nyugta jelölők megjelenítése",
+            "showCurrent": "Aktuális Hold helyzet megjelenítés",
+            "showLegend": "Jelmagyarázat megjelenítése",
+            "showHighest": "legmagasabb Hold pozíció megjelenítése",
+            "calendarModal": "A naptár előugró ablakban jelenik meg",
+            "hideButtons": "A fejléc gombok rejtve lesznek",
+            "useDefault": "A rendszer szélesség és hosszúság adatok lesznek használva",
+            "useEntity": "Az entitás szélesség és hosszúság adatok lesznek használva",
+            "useCustom": "Egyedi szélesség és hosszúság használata",
+            "hideLabel": "Címke elrejtése kompakt nézetben"
+        },
+        "placeHolder": {
+            "latitude": "Szélesség",
+            "longitude": "Hosszúság",
+            "customBackground": "URL vagy elérési út a képhez",
+            "language": "Válassz nyelvet",
+            "moonPosition": "Válaszd ki a Hold helyzetét a kártyán",
+            "defaultCard": "Válaszd ki az alapértelmezett kártyát",
+            "yTicksPosition": "Y temgely beosztás helyzet",
+            "legendPosition": "Jelmagyarázat helyzete",
+            "legendAlign": "Jelmagyarázat igazítás",
+            "graphType": "Grafikon típus",
+            "compactMode": "Kompakt mód",
+            "themeMode": "Téma mód"
+        }
+    }
+}
